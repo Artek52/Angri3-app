@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">CLAN ANGRI 3</string>
+
+    <!-- MartinPescatore Disposto Angri 3 -->
+    <string name="strada">Per noi R/S fare strada significa avere coraggio, il coraggio
+di partire e di portare sulle proprie spalle il peso delle
+nostre scelte. Scegliamo di agire restando fedeli ai valori
+della legge e della promessa scout nonostante il mondo in
+cui viviamo corra veloce nella direzione opposta. Spinti dal
+coraggio ci impegniamo a cogliere tutte le opportunità che il
+cammino ci offre.
+        Utilizziamo la strada:</string>
+    <string name="strada_punto1"> • Per diventare persone che abbandonano i propri
+egoismi aprendosi al prossimo. Ci impegniamo a rendere il cammino accogliente, in modo
+che nessuno venga lasciato dietro.</string>
+
+    <string name="strada_punto2"> • Per fare di noi una comunità che condividendo le
+difficoltà, stringe legami autentici.
+Ci impegniamo a spendere tempo con tutti i nostri
+compagni, specialmente con quelli che sento di conoscere
+poco.
+Ci impegniamo inoltre a organizzare incontri con altri gruppi
+scout Agesci e non; </string>
+
+    <string name="strada_punto3"> • Per riflettere su chi eravamo, chi siamo e chi vogliamo
+essere.
+Ponendoci dubbi e cercando risposte.
+Ci impegniamo a creare incontri con enti e cooperative
+capaci di renderci persone più consapevoli con una visione
+critica del mondo che ci circonda. </string>
+
+    <string name="comunita"> La nostra comunità è un luogo di accoglienza in cui i
+componenti, fidandosi gli uni degli altri, condividono un
+percorso in cui le esperienze di ognuno vengono messe a
+servizio della comunità.
+Vogliamo che i limiti dei singoli, non siamo un
+impedimento, ma il punto di partenza del crescere comune
+e che le capacità di ognuno possano migliorarci ogni giorno
+di più.
+Ci sentiamo una famiglia quindi se un membro soffre, tutte
+le membra soffrono insieme, e se un membro è onorato,
+tutte le membra gioiscono con lui.
+Vogliamo essere una comunità: </string>
+    <string name="comunita_punto1"> • Che vive l’accoglienza sperimentando realtà in cui
+questa è messa al primo posto. </string>
+    <string name="comunita_punto2"> • Che matura e diventa più responsabile.
+Ci impegniamo dunque a rispettare gli impegni presi verso
+la comunità sacrificando quelli superflui e ad essere più
+partecipi nei momenti di costruzione. </string>
+
+    <string name="azione_politica"> Sentendoci protagonisti del nostro tempo, decidiamo in
+ogni situazione di agire per il bene comune. Questo agire
+è il frutto di tutte le esperienze che la comunità ha
+vissuto. Lasciandoci guidare dai nostri valori noi rifiutiamo
+la visione miope della realtà, guardando il mondo con gli
+occhi di chi spera ancora in un futuro migliore.
+Vogliamo quindi: </string>
+
+    <string name="azione_politica_punto1"> • Essere un clan che si informa per avere una visione
+critica e consapevole, che con piccole azioni può
+apportare un cambiamento tangibile. Per fare ciò ci impegniamo a utilizzare come strumento il
+capitolo (vedere, giudicare, agire) e a portarlo a termine.</string>
+
+    <string name="azione_politica_punto2"> • Fare rete con altre realtà vicine e lontane, al fine di
+migliorarci a vicenda. </string>
+
+    <string name="azione_politica_punto3"> • Organizzare veglie volte a trasmettere il nostro
+pensiero ogni qual volta sentiamo la necessità e l’urgenza di intervenire. </string>
+
+    <string name="azione_politica_punto4"> • Essere cittadini attivi. </string>
+
+    <string name="servizio"> Ci impegniamo nel nostro piccolo a prendere coscienza
+della società in cui viviamo e posizione se necessario.
+    Noi R/S vediamo nel servizio un’opportunità per renderci
+utili e per aiutare il prossimo. Il servizio non è uno scambio
+reciproco di favori, bensì un arricchimento reciproco.
+Conoscendo i nostri limiti facciamo del nostro meglio per
+cogliere tutte le occasioni di servizio che si presentano alla
+comunità e ad ogni singolo membro di essa. Credendo nella
+scelta di servizio, ci impegniamo singolarmente a dedicare
+almeno una giornata al mese per vivere un’esperienza di
+servizio in condivisione con la comunità.
+Scegliamo di servire mossi dall’amore e ispirati
+dall’esempio di Gesù. </string>
+
+    <string name="fede">Noi comunità seppur crediamo nei valori del cristianesimo e
+facciamo della parola del vangelo la nostra guida, abbiamo
+dei dubbi sul nostro rapporto personale con Dio.
+Dunque ci impegniamo a scoprire passo dopo passo la
+parola del signore approfondendola con incontri mensili con
+il nostro parroco.</string>
+    <string name="io_e_me_stesso">Io e me stesso:</string>
+    <string name="sogni_e_aspirazioni">Sogni e Aspirazioni</string>
+    <string name="storia">Storia</string>
+    <string name="situazione_attuale">Situazione attuale</string>
+    <string name="io_e_gli_altri">Io e gli altri:</string>
+    <string name="io_e_dio">Io e Dio:</string>
+    <string name="io_e_il_mondo">Io e il mondo:</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="visualizza">visualizza</string>
+    <string name="title_carta">Carta di clan</string>
+    <string name="title_punto">Punto della strada</string>
+    <string name="comunit">COMUNITÀ:</string>
+</resources>

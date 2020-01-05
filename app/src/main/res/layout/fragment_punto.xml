@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PuntoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/io_e_me_stesso"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/myself_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/storia"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toStartOf="@+id/others_story"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/myself_present"
+                style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/situazione_attuale"
+                android:inputType="textMultiLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myself_story"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/myself_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Sogni e Aspirazioni"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toStartOf="@+id/others_future"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myself_present"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/io_e_gli_altri"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myself_future" />
+
+            <EditText
+                android:id="@+id/others_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/storia"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toEndOf="@+id/myself_story"
+                app:layout_constraintTop_toTopOf="parent"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/others_present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Situazione Attuale"
+                android:inputType="textMultiLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myself_story"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/others_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Sogni e Aspirazioni"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/myself_future"
+                app:layout_constraintTop_toBottomOf="@+id/god_present"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/io_e_dio"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/others_story"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.379"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/god_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/storia"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/god_present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/situazione_attuale"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.41"
+                app:layout_constraintStart_toEndOf="@+id/myself_present"
+                app:layout_constraintTop_toBottomOf="@+id/others_story" />
+
+            <EditText
+                android:id="@+id/god_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/sogni_e_aspirazioni"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/io_e_il_mondo"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/others_future"
+                app:layout_constraintTop_toBottomOf="@+id/others_future" />
+
+            <EditText
+                android:id="@+id/world_past"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/storia"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/world_present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/situazione_attuale"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/world_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/sogni_e_aspirazioni"
+                android:inputType="textMultiLine"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aggiungi"
+                 />
+
+            <Button
+                android:id="@+id/visualize_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/visualizza"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
